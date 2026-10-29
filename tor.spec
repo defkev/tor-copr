@@ -19,7 +19,7 @@
 %endif
 
 Name:       tor
-Version:    0.4.9.14
+Version:    0.4.9.15
 Release:    1%{?dist}
 License:    BSD
 Summary:    Anonymizing overlay network for TCP
@@ -188,6 +188,9 @@ fi
 
 
 %changelog
+* Thu Oct 29 2026 defkev <defkev@gmail.com> - 0.4.9.15-1
+- Update to 0.4.9.15
+
 * Thu Oct 29 2026 defkev <defkev@gmail.com> - 0.4.9.14-1
 - Update to 0.4.9.14
 

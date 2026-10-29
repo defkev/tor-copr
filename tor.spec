@@ -93,7 +93,6 @@ Tor network, or as a client to connect to the Tor network.
            --with-tor-group=%{torgroup} \
            --enable-static-openssl \
            --with-openssl-dir=/usr/lib64/openssl11 \
-           --disable-asciidoc \
            CFLAGS="-maes -mpclmul -I/usr/include/openssl11" \
            TOR_OPENSSL_LIBS="/usr/lib64/openssl11/libssl.a /usr/lib64/openssl11/libcrypto.a" \
            LDFLAGS="-L/usr/lib64/openssl11" \

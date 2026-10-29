@@ -19,7 +19,7 @@
 %endif
 
 Name:       tor
-Version:    0.4.9.12
+Version:    0.4.9.13
 Release:    1%{?dist}
 License:    BSD
 Summary:    Anonymizing overlay network for TCP
@@ -188,7 +188,10 @@ fi
 
 
 %changelog
-* Thu Oct 29 2026 defkev <defkev@gmail.com> -0.4.9-12
+* Thu Oct 29 2026 defkev <defkev@gmail.com> - 0.4.9.13-1
+- Update to 0.4.9.13
+
+* Thu Oct 29 2026 defkev <defkev@gmail.com> - 0.4.9.12-1
 - Import last SPEC from rpm.torproject.org/centos/7/x86_64/ and update to 0.4.9.12
 
 * Mon Nov 13 2023 Kushal Das <kushal@torproject.org> -0.4.8.9-1

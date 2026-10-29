@@ -91,7 +91,6 @@ Tor network, or as a client to connect to the Tor network.
 %build
 %configure --with-tor-user=%{toruser} \
            --with-tor-group=%{torgroup} \
-           --enable-static-openssl \
            --with-openssl-dir=/usr/lib64/openssl11 \
            CFLAGS="-maes -mpclmul -I/usr/include/openssl11" \
            TOR_OPENSSL_LIBS="/usr/lib64/openssl11/libssl.a /usr/lib64/openssl11/libcrypto.a" \

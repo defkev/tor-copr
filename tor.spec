@@ -37,7 +37,7 @@ Source12:   tor-master.service
 Source20:   README
 Source21:   https://www.torproject.org/dist/tor-%{version}.tar.gz.sha256sum
 
-#Patch0:     tor-0.4.8.4-torrc-ControlSocket-and-CookieAuthFile.patch
+Patch0:     tor-0.4.8.4-torrc-ControlSocket-and-CookieAuthFile.patch
 
 BuildRequires:    gcc
 BuildRequires:    asciidoc
